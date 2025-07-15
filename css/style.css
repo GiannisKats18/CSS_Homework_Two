@@ -1,0 +1,55 @@
+body{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    background-color: rgb(34, 139, 34);
+}
+header{
+    background-color: rgb(0, 255, 255);
+}
+header img{
+    width:10%;
+    position:relative;
+    top:20px;
+}
+nav{
+    display:inline-block;
+    width:80%;
+    font-size:200%;
+    background-color: rgb(245, 245, 220);
+}
+main{
+    background-color:rgb(144, 238, 144);
+    font-size:140%;
+}
+footer{
+    background-color:rgb(0, 255, 255);
+}
+/* li{
+    display: inline-block;
+    width:100%;
+} */
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(128, 128, 0);
+    line-height:150%;
+}
+p{
+    line-height:120%;
+}
+.neighborGrid{
+    display:grid;
+    grid-template-columns:40% 40%;
+    justify-content:space-around;
+    align-items:center;
+    row-gap:50px;
+}
+.neighborGrid img{
+    width:100%;
+}
+.parkFlex{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
